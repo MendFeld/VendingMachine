@@ -1,0 +1,23 @@
+ static void Main(string[] args)
+        {
+            var vendingMachine101 = new VendingMachine();
+
+            vendingMachine101.DepositCoin(74);
+            vendingMachine101.DepositCoin(2);
+            vendingMachine101.GetDrink();
+            vendingMachine101.GetRefund();
+            vendingMachine101.GetDrink();
+
+            Console.ReadLine();
+
+
+
+
+
+
+
+
+            
+
+
+        }
